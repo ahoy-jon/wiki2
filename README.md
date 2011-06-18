@@ -1,0 +1,1 @@
+WIKI 2 est un test pour faire un meilleur wiki, qui a pour but d'être a terme distribué.
