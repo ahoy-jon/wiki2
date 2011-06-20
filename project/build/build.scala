@@ -13,7 +13,8 @@ class MyProject(info: ProjectInfo) extends DefaultWebProject(info) with AkkaProj
     "commons-configuration" % "commons-configuration" % "1.6",
     "com.vaadin" % "vaadin" % "6.4.0",
     "org.mortbay.jetty" % "jetty" % "6.1.22" % "test->default",
-    "org.specs2" %% "specs2" % "1.4"  % "test->default"
+    "org.specs2" %% "specs2" % "1.4"  % "test->default",
+    "org.scalaz" %% "scalaz-core" % "6.0.1"
   ) ++ super.libraryDependencies
   
   def specs2Framework = new TestFramework("org.specs2.runner.SpecsFramework")
